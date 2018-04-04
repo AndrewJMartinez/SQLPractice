@@ -1,0 +1,13 @@
+CREATE TABLE tv_shows (
+  id INTEGER,
+  name TEXT,
+  rating INTEGER
+);
+INSERT INTO tv_shows (id, name, rating)
+VALUES (1, 'Daredevil', 4);
+
+INSERT INTO tv_shows (id, name, rating)
+VALUES (2, 'Bojack Horseman', 5);
+
+INSERT INTO tv_shows (id, name, rating)
+VALUES (3, 'The Amazing World of Gumball', 4);
